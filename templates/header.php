@@ -16,9 +16,9 @@
             <img src="img/logo.svg" alt="Blog Codar">
         </a>
         <ul id="navbar">
-            <li><a href="<?= $BASE_URL ?>">HOME</a></li>
-            <li><a href="#">CATEGORIAS</a></li>
-            <li><a href="#">SOBRE</a></li>
-            <li><a href="#">CONTATO</a></li>
+            <li><a href="<?= $BASE_URL ?>"class="nav-link">HOME</a></li>
+            <li><a href="#"class="nav-link">CATEGORIAS</a></li>
+            <li><a href="#"class="nav-link">SOBRE</a></li>
+            <li><a href="#"class="nav-link">CONTATO</a></li>
         </ul>
     </header>
