@@ -1,3 +1,8 @@
+<?php
+    include_once("data/categories.php");
+    include_once("data/posts.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
