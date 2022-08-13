@@ -12,11 +12,10 @@
         <?php foreach($posts as $post):?>
             
             <div class="post-box"> <!-- container para exibir a informação do post-->
-                <img src="img/<?= $post['img']?>" alt="<?= $post['title']?>">
-                
-                <h2 class="post-title">
-                    <a href="/post.php?id=<?= $post['id']?>"> <?= $post['title']?> </a>
-                </h2>
+            <img src="<?= $BASE_URL ?>/img/<?= $post['img'] ?>" alt="<?= $post['title'] ?>">
+            <h2 class="post-title">
+                <a href="<?= $BASE_URL ?>post.php?id=<?= $post['id'] ?>"><?= $post['title'] ?></a>
+            </h2>
 
                 <p class="post-description"> <?= $post['description']?> </p>
                 
